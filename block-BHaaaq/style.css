@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px;
+}
+.first
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 30px;
+    border: 5px solid black;
+
+
+}
+.second-1
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 30px;
+    border: 5px double black;
+
+   
+
+
+}
+.second-2
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 30px;
+    border: 5px dashed black;
+
+   
+
+
+}
+.third-1{  
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 30px;
+    border: 5px dotted black;
+    
+
+}
+.third-2{  
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 30px;
+ 
+    
+
+}
+#forth{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border-top: 30px solid blue;
+    border-bottom: 30px solid yellow;
+    border-right: 30px solid gray;
+    border-left: 30px solid green;
+    color: azure;
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -30px;
+    margin-right: auto;
+    
+   
+    
+
+
+}
+#color{
+
+    width: fit-content;
+    height: fit-content;
+    border-bottom: 30px solid purple;
+    border-top: 30px solid purple;
+    border-left: 50px solid purple;
+    border-right: 20px solid purple;
+    margin-left: 10px;
+    margin-bottom: 30px;
+  
+}
+
+
+
+
